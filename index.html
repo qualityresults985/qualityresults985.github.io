@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Quality Results | Handyman & Home Services</title>
+
+<meta name="description" content="Quality Results provides dependable handyman, home repair, maintenance, installation and property improvement services.">
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background: #f7f7f7;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+    url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1800&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 21px;
+    max-width: 750px;
+    margin: auto;
+}
+
+.button {
+    display: inline-block;
+    background: #f5a400;
+    color: #111;
+    padding: 14px 28px;
+    margin-top: 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 70px 7%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+.about {
+    background: white;
+    text-align: center;
+}
+
+.about p {
+    max-width: 850px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.services {
+    background: #f1f1f1;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 28px;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgba(0,0,0,.08);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.pricing {
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+.pricing-box {
+    max-width: 650px;
+    margin: auto;
+    background: #1d1d1d;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.pricing-box h3 {
+    color: #f5a400;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.area {
+    background: white;
+    text-align: center;
+}
+
+.area p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact {
+    text-align: center;
+    background: #f5a400;
+}
+
+.contact h2 {
+    font-size: 36px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">QUALITY RESULTS</div>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Quality Results</h1>
+    <p>Reliable Handyman & Home Services</p>
+    <p>Repairs • Maintenance • Installation • Property Improvements</p>
+
+    <a class="button" href="#contact">Request a Quote</a>
+</section>
+
+<section class="about" id="about">
+    <h2 class="section-title">Quality Work. Dependable Service.</h2>
+
+    <p>
+        Quality Results provides dependable handyman and home improvement
+        services for homeowners, landlords and property owners.
+        From repairs and maintenance to installations and property
+        improvements, we focus on getting the job done right.
+    </p>
+</section>
+
+<section class="services" id="services">
+
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="service-grid">
+
+        <div class="card">
+            <h3>🔨 Handyman Repairs</h3>
+            <p>General repairs, home maintenance and property improvements.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏠 Home Maintenance</h3>
+            <p>Repairs and maintenance to keep your property in good shape.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚪 Doors & Windows</h3>
+            <p>Door repairs, installations, framing and window-related work.</p>
+        </div>
+
+        <div class="card">
+            <h3>🧱 Drywall & Wood Repairs</h3>
+            <p>Drywall patches, wood repairs, trim and finish work.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔧 Appliance Repair</h3>
+            <p>Diagnosis and repair of common household appliances.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛠️ Installation</h3>
+            <p>Fixtures, hardware, cabinets, flooring and other installations.</p>
+        </div>
+
+        <div class="card">
+            <h3>💦 Pressure Washing</h3>
+            <p>Exterior cleaning and property cleanup services.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌳 Property Improvements</h3>
+            <p>Exterior repairs, soffits, trim and general property improvements.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="pricing">
+
+    <div class="pricing-box">
+
+        <h3>Service Calls Starting at $80</h3>
+
+        <p>
+            Our standard diagnostic/service call is $80.
+            Final pricing depends on the work required, materials
+            and scope of the project.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="area">
+
+    <h2 class="section-title">Service Area</h2>
+
+    <p>
+        Serving Franklinton, Bogalusa, Covington, Mandeville,
+        Slidell, New Orleans and surrounding areas.
+    </p>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2>Need Something Fixed?</h2>
+
+    <p>Contact Quality Results today for a quote.</p>
+
+    <a class="button" href="mailto:YOUR-EMAIL-HERE">
+        Request a Quote
+    </a>
+
+</section>
+
+<footer>
+    <p>© 2026 Quality Results. All Rights Reserved.</p>
+    <p>Handyman & Home Services</p>
+</footer>
+
+</body>
+</html>
